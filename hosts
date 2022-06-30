@@ -14,8 +14,12 @@
 ## blue.example.com
 ## 192.168.100.1
 ## 192.168.100.10
+<<<<<<< HEAD
 16.171.41.104
 13.48.46.241
+=======
+
+>>>>>>> 0bc8530b647f40b838551784e85bf85223415144
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
 ## [webservers]
