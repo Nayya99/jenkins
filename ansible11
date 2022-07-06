@@ -11,19 +11,7 @@
 
 # some basic default values...
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 inventory      = hosts
-=======
-#inventory      = /etc/ansible/hosts
->>>>>>> 6012f533785fa4e977a77d781ca38351568801d0
-=======
-#inventory      = /etc/ansible/hosts
->>>>>>> 997f80f191b14d9fe4796ae051faa9e0854a6f5a
-=======
-#inventory      = /etc/ansible/hosts
->>>>>>> 8e403b7bd41355f90df4774daef220aee055b2d0
 #library        = /usr/share/my_modules/
 #module_utils   = /usr/share/my_module_utils/
 #remote_tmp     = ~/.ansible/tmp
@@ -80,7 +68,7 @@ inventory      = hosts
 #roles_path    = /etc/ansible/roles
 
 # uncomment this to disable SSH key host checking
-#host_key_checking = False
+host_key_checking = False
 
 # change the default callback, you can only have one 'stdout' type  enabled at a time.
 #stdout_callback = skippy
@@ -116,19 +104,7 @@ inventory      = hosts
 
 # default user to use for playbooks if user is not specified
 # (/usr/bin/ansible will use current user as default)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 remote_user = ubuntu
-=======
-#remote_user = root
->>>>>>> 6012f533785fa4e977a77d781ca38351568801d0
-=======
-#remote_user = root
->>>>>>> 997f80f191b14d9fe4796ae051faa9e0854a6f5a
-=======
-#remote_user = root
->>>>>>> 8e403b7bd41355f90df4774daef220aee055b2d0
 
 # logging is off by default unless this path is defined
 # if so defined, consider logrotate
@@ -157,7 +133,7 @@ remote_user = ubuntu
 
 # if set, always use this private key file for authentication, same as
 # if passing --private-key to ansible or ansible-playbook
-#private_key_file = /path/to/file
+private_key_file = /home/ubuntu/paris-key.pem
 
 # If set, configures the path to the Vault password file as an alternative to
 # specifying --vault-password-file on the command line.
