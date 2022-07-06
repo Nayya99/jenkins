@@ -1,7 +1,7 @@
 - name: playbook_2
-   hosts: all
-   become: true
-   tasks:
+  hosts: all
+  become: true
+  tasks:
      - name: get uid
        shell: id
        register: out
