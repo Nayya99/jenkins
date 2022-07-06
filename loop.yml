@@ -1,11 +1,11 @@
-- name: loop
-hosts: all
-tasks:
-- name: print city name
-  debugs:
-   msg: "all my city : {{item}}"
-  loop:
-    -ngp 
-    -pune
-    -wardha
-   
+- name : loop name
+  hosta: all
+  tasks: 
+    - name : print city name
+      debug: 
+        msg: "all my city name : {{item}}"
+      loop:
+        - nag
+        - pune
+        - mumbai
+        - chandrapur  
