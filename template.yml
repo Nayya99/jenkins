@@ -2,7 +2,7 @@
   hosts: all
   become: true
   vars:
-    demo1: nilama 
+    stock market down: nilama 
   tasks:
     - template:
         src: demo1
