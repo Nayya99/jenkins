@@ -1,0 +1,9 @@
+- name: template module
+  hosts: all
+  become: true
+  vars:
+    shock: market
+  tasks:
+    - template:
+        src: demo1
+        dest: /mnt/ash
