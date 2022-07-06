@@ -2,7 +2,7 @@
   hosts: all
   become: true
   vars:
-    stock market down: nilama 
+    shock: market
   tasks:
     - template:
         src: demo1
