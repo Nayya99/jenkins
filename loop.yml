@@ -1,5 +1,5 @@
-- name : loop name
-  hosta: all
+- name : loop
+  hosts: all
   tasks: 
     - name : print city name
       debug: 
