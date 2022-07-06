@@ -1,5 +1,5 @@
 - name : loop
-  hosts: all
+  hosts: localhost
   tasks: 
     - name : print city name
       debug: 
