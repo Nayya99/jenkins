@@ -3,5 +3,5 @@
   tasks:
     - name: package installation
       package: 
-        name: httpd
+        name: nginx
         state: present
