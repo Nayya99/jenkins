@@ -2,7 +2,7 @@
   hosts: all
   become: true
   vars:
-    shock: market
+    stock: market
   tasks:
     - template:
         src: demo1
