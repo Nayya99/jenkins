@@ -1,5 +1,5 @@
 - name: Package server installation
-  hosts: localhost
+  hosts: all
   tasks:
     - name: package installation
       become: true
