@@ -6,11 +6,11 @@
       find:
         path: /etc/ssh
         file_type: file
-        pattern: "pub*" 
+        pattern: "*pub" 
       register: out
 
     - name: remove the files
       file:
         path: /etc/ssh
         state: absent
-      loop: "pub*"
+      loop: "{{out}}"
