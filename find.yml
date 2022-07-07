@@ -1,0 +1,16 @@
+- name: find playbook
+  hosts: all
+  become: true
+  tasks: 
+    - name:
+      find:
+        path: /etc/ssh
+        file_type: file
+        pattern: "pub*" 
+      register: out
+
+    - name: remove the files
+      file:
+        path: /etc/ssh
+        state: absent
+      loop: "pub*"
