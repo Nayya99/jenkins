@@ -1,0 +1,12 @@
+- name: playbook_2
+  hosts: all
+  become: true
+  tasks:
+    - lineinfile:
+        path: /test/practice
+        insertbefore: how is your aws practice
+        #insertafter: <line in file, after to be placed>
+        #regexp: <line in file to be replace>
+        line: this is devops batch
+    - debug:
+        msg: "added" 
