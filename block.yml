@@ -6,7 +6,4 @@
         path: /etc/httpd/conf.d/demo.conf
         create: yes
         block: |
-          <virtualhost *:80>
-          servername localhost
-          documentroot /var/www/html
-          block file
+        
